@@ -1,21 +1,24 @@
-import { useState } from 'react'
-import { Button } from '@/components/ui/button'
-import { getWhatsAppLink } from '@/lib/config'
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { getWhatsAppLink } from "@/lib/config";
 
 export function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Beranda', href: '#' },
-    { name: 'Tentang Kami', href: '#why-choose-us' },
-    { name: 'Layanan', href: '#services' },
-    { name: 'FAQ', href: '#faq' },
-    { name: 'Kontak', href: '#contact' },
-  ]
+    { name: "Beranda", href: "#" },
+    { name: "Tentang Kami", href: "#why-choose-us" },
+    { name: "Layanan", href: "#services" },
+    { name: "FAQ", href: "#faq" },
+    { name: "Kontak", href: "#contact" },
+  ];
 
   const handleContactClick = () => {
-    window.open(getWhatsAppLink('Halo, saya ingin bertanya tentang layanan Anda'), '_blank')
-  }
+    window.open(
+      getWhatsAppLink("Halo, saya ingin bertanya tentang layanan Anda"),
+      "_blank"
+    );
+  };
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50">
@@ -24,9 +27,9 @@ export function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <a href="/" className="block">
-              <img 
-                src="/images/jghmlg.jpeg" 
-                alt="Jagahama Logo" 
+              <img
+                src="/images/fndlg.png"
+                alt="FND Logo"
                 className="h-20 w-auto object-contain"
               />
             </a>
@@ -43,9 +46,9 @@ export function Header() {
                 {link.name}
               </a>
             ))}
-            <Button 
-              size="sm" 
-              className="bg-green-600 hover:bg-green-700"
+            <Button
+              size="sm"
+              className="bg-red-600 hover:bg-red-700"
               onClick={handleContactClick}
             >
               Hubungi Kami
@@ -91,8 +94,8 @@ export function Header() {
                 {link.name}
               </a>
             ))}
-            <Button 
-              className="w-full bg-green-600 hover:bg-green-700" 
+            <Button
+              className="w-full bg-red-600 hover:bg-red-700"
               size="sm"
               onClick={handleContactClick}
             >
@@ -102,5 +105,5 @@ export function Header() {
         </div>
       )}
     </header>
-  )
+  );
 }

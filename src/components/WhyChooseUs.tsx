@@ -6,17 +6,16 @@ export function WhyChooseUs() {
     {
       title: "Professional and Trusted Service",
       description:
-        "Our experienced team delivers high-quality results with proven expertise",
+        "Dengan Pengalaman kami pastikan tempat anda bebas dari hama.",
     },
     {
-      title: "Comprehensive and Integrated Solutions",
+      title: "Komprehensif dan Solusi Terintegrasi",
       description:
-        "We offer complete solutions tailored to your specific needs",
+        "Kami menawarkan solusi berbagai kebutuhan sesuai usaha anda.",
     },
     {
-      title: "Customer Satisfaction as Top Priority",
-      description:
-        "We are committed to exceeding your expectations in every project",
+      title: "Kepuasan anda adalah Tujuan Kami",
+      description: "Kami selalu berusaha memuaskan semua konsumen kami",
     },
   ];
 
@@ -52,14 +51,13 @@ export function WhyChooseUs() {
               Mengapa Harus Memilih Kami?
             </h2>
             <p className="text-lg text-slate-600 leading-relaxed">
-              Kami menyediakan layanan cleaning service dan pest control yang
-              profesional, efisien, dan aman di Bandung. Dengan tim terlatih dan
-              menggunakan teknologi terkini, kami menjamin kebersihan optimal
-              dan pencegahan hama yang efektif untuk rumah, kantor, dan properti
-              komersial. Kami berkomitmen untuk memberikan layanan yang
-              berkualitas tinggi, memprioritaskan keamanan serta kepuasan
-              pelanggan sebagai fokus utama dalam setiap pekerjaan yang kami
-              lakukan.
+              Kami menyediakan pest control yang profesional, efisien, dan aman
+              di Jakarta. Dengan tim terlatih dan menggunakan teknologi terkini,
+              kami menjamin kebersihan optimal dan pencegahan hama yang efektif
+              untuk rumah, kantor, dan properti komersial. Kami berkomitmen
+              untuk memberikan layanan yang berkualitas tinggi, memprioritaskan
+              keamanan serta kepuasan pelanggan sebagai fokus utama dalam setiap
+              pekerjaan yang kami lakukan.
             </p>
 
             {/* Benefits List */}

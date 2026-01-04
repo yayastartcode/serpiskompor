@@ -3,7 +3,9 @@ import { Hero } from "@/components/Hero";
 import { WhyChooseUs } from "@/components/WhyChooseUs";
 import { ServicesSection } from "@/components/ServicesSection";
 import { ReservationForm } from "@/components/ReservationForm";
+import { GallerySection } from "@/components/GallerySection";
 import { FAQSection } from "@/components/FAQSection";
+import { ClientsSection } from "@/components/ClientsSection";
 import { ContactMap } from "@/components/ContactMap";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
@@ -22,7 +24,11 @@ function App() {
 
         <ReservationForm />
 
+        <GallerySection />
+
         <FAQSection />
+
+        <ClientsSection />
 
         <ContactMap />
       </main>

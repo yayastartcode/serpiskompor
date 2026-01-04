@@ -8,7 +8,7 @@ export function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url(/images/hero-bg.jpg)",
+          backgroundImage: "url(/images/herofd.png)",
         }}
       />
 
@@ -27,9 +27,9 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
-            className="text-5xl sm:text-6xl lg:text-7xl font-bold text-slate-900"
+            className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900"
           >
-            Jaga Hama Pest Management
+            F&D Pest Control
           </motion.h1>
 
           <motion.p
@@ -38,7 +38,7 @@ export function Hero() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-xl sm:text-2xl text-slate-900 max-w-3xl mx-auto font-medium"
           >
-            Profesional dan Ahli dalam Pengendalian Hama
+            Jasa Pembasmi Hama dan Serangga Mitra SPPG MBG
           </motion.p>
 
           <motion.div
@@ -49,7 +49,7 @@ export function Hero() {
           >
             <Button
               size="lg"
-              className="text-lg px-12 py-7 bg-yellow-400 hover:bg-yellow-500 text-slate-900 font-bold rounded-full shadow-xl"
+              className="text-lg px-12 py-7 bg-red-400 hover:bg-red-500 text-slate-900 font-bold rounded-full shadow-xl"
               onClick={() => {
                 const element = document.querySelector("#reservation-form");
                 element?.scrollIntoView({ behavior: "smooth" });

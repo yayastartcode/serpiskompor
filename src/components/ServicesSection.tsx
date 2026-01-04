@@ -1,44 +1,48 @@
 import { motion } from 'motion/react'
 import { Button } from '@/components/ui/button'
-import { Bug, Rat, Shield, Warehouse, Droplets, Sparkles } from 'lucide-react'
+import { Bug, Rat, Shield, Wind, CircleDot, Snail, Zap } from 'lucide-react'
 
 export function ServicesSection() {
   const services = [
     {
       icon: Bug,
-      title: 'Insect Control',
-      subtitle: '(Serangga)',
-      description: 'Pengendalian hama serangga secara efektif dengan metode yang aman dan terpercaya untuk melindungi lingkungan Anda.',
+      title: 'Jasa Pembasmi Hama',
+      description: 'Pengendalian hama secara efektif dengan metode yang aman dan terpercaya untuk melindungi lingkungan Anda.',
     },
     {
-      icon: Rat,
-      title: 'Rodent Control',
-      subtitle: '(Tikus)',
-      description: 'Solusi komprehensif untuk mengatasi masalah tikus dengan teknologi modern dan ramah lingkungan.',
+      icon: Wind,
+      title: 'Jasa Fogging',
+      description: 'Layanan fogging profesional untuk membasmi nyamuk dan serangga terbang lainnya.',
     },
     {
       icon: Shield,
-      title: 'Termite Control',
-      subtitle: '(Rayap)',
+      title: 'Jasa Anti Rayap',
       description: 'Perlindungan menyeluruh terhadap rayap untuk menjaga struktur bangunan dan properti Anda.',
     },
     {
-      icon: Warehouse,
-      title: 'Fumigation',
-      subtitle: '(Hama Gudang)',
-      description: 'Fumigasi profesional untuk mengendalikan hama gudang dan melindungi stok barang Anda.',
+      icon: CircleDot,
+      title: 'Jasa Pembasmi Tawon',
+      description: 'Penanganan sarang tawon secara aman dan profesional untuk keamanan lingkungan Anda.',
     },
     {
-      icon: Droplets,
-      title: 'Disinfection',
-      subtitle: '',
-      description: 'Layanan disinfeksi menyeluruh untuk menciptakan lingkungan yang bersih, sehat, dan bebas kuman.',
+      icon: Rat,
+      title: 'Jasa Pembasmi Tikus',
+      description: 'Solusi komprehensif untuk mengatasi masalah tikus dengan teknologi modern dan ramah lingkungan.',
     },
     {
-      icon: Sparkles,
-      title: 'Hama Lainnya',
-      subtitle: '',
-      description: 'Solusi pengendalian untuk berbagai jenis hama lainnya yang mengganggu kenyamanan rumah atau kantor Anda.',
+      icon: Bug,
+      title: 'Jasa Pembasmi Lalat',
+      description: 'Pengendalian lalat secara efektif untuk menjaga kebersihan dan kesehatan lingkungan Anda.',
+    },
+    {
+      icon: Snail,
+      title: 'Jasa Pembasmi Kutu',
+      description: 'Layanan pembasmian kutu untuk kenyamanan rumah dan kesehatan keluarga Anda.',
+    },
+    {
+      icon: Zap,
+      title: 'Jasa Basmi Ular',
+      description: 'Penanganan ular secara aman dan profesional untuk keamanan properti Anda.',
     },
   ]
 
@@ -97,12 +101,9 @@ export function ServicesSection() {
               </div>
 
               {/* Title */}
-              <h3 className="text-xl font-bold text-slate-900 mb-1">
+              <h3 className="text-xl font-bold text-slate-900 mb-4">
                 {service.title}
               </h3>
-              {service.subtitle && (
-                <p className="text-sm text-slate-500 mb-4">{service.subtitle}</p>
-              )}
 
               {/* Description */}
               <p className="text-slate-600 mb-6">{service.description}</p>

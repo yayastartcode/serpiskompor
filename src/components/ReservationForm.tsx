@@ -12,12 +12,14 @@ export function ReservationForm() {
   })
 
   const services = [
-    'Insect Control (Serangga)',
-    'Rodent Control (Tikus)',
-    'Termite Control (Rayap)',
-    'Fumigation (Hama Gudang)',
-    'Disinfection',
-    'Hama Lainnya',
+    'Jasa Pembasmi Hama',
+    'Jasa Fogging',
+    'Jasa Anti Rayap',
+    'Jasa Pembasmi Tawon',
+    'Jasa Pembasmi Tikus',
+    'Jasa Pembasmi Lalat',
+    'Jasa Pembasmi Kutu',
+    'Jasa Basmi Ular',
   ]
 
   const handleSubmit = (e: FormEvent) => {

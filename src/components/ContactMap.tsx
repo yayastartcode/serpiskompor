@@ -32,7 +32,7 @@ export function ContactMap() {
           >
             <div className="rounded-2xl overflow-hidden shadow-xl h-[450px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9287843804473!2d107.65555599999999!3d-6.899120900000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e791b8aa49a7%3A0xd666c5903884f24e!2sJl.%20Utama%20No.26b%2C%20Pasirlayung%2C%20Kec.%20Cibeunying%20Kidul%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040192!5e0!3m2!1sen!2sid!4v1766319459557!5m2!1sen!2sid"
+                src="https://www.google.com/maps/embed?pb=!4v1767489887281!6m8!1m7!1sAmG5L9H48px1AA8myVGrdA!2m2!1d-6.268964319080299!2d106.8086046846237!3f282.4!4f-3.480000000000004!5f0.7820865974627469"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -62,11 +62,12 @@ export function ContactMap() {
                     Alamat Kantor
                   </h3>
                   <p className="text-slate-700 leading-relaxed">
-                    Jl. Utama No.26b, Pasirlayung
+                    Jl. Pangeran Antasari No. 88, RT6/RW2, Cipete Selatan,
+                    Cilandak Barat
                     <br />
-                    Kec. Cibeunying Kidul
+                    Kec. Cilandak
                     <br />
-                    Kota Bandung, Jawa Barat 40192
+                    Jakarta Selatan DKI Jakarta
                   </p>
                 </div>
               </div>
