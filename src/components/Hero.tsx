@@ -18,17 +18,17 @@ export function Hero() {
           transition={{ duration: 0.8 }}
           className="space-y-6"
         >
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold italic text-[#d4a84b]">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#d4a84b]">
             SERVICE KOMPOR GAS PANGGILAN &<br />
             BERGARANSI
           </h1>
 
-          <p className="text-xl sm:text-2xl text-white italic">
+          <p className="text-xl sm:text-2xl text-white">
             " Percayakan Perbaikan Kompor Gas Anda Kepada{" "}
             <span className="font-bold">PRABU JAYABAYA</span> "
           </p>
 
-          <p className="text-lg text-white italic max-w-3xl">
+          <p className="text-lg text-white max-w-3xl">
             Kami Hadir Untuk Membantu Anda Mengatasi Berbagai Masalah Kompor Gas
             Dengan Layanan Profesional Yang Cepat, Aman, Dan Efisien
           </p>
