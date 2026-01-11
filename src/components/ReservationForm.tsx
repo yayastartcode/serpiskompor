@@ -12,14 +12,9 @@ export function ReservationForm() {
   })
 
   const services = [
-    'Jasa Pembasmi Hama',
-    'Jasa Fogging',
-    'Jasa Anti Rayap',
-    'Jasa Pembasmi Tawon',
-    'Jasa Pembasmi Tikus',
-    'Jasa Pembasmi Lalat',
-    'Jasa Pembasmi Kutu',
-    'Jasa Basmi Ular',
+    'Service Kompor Gas Panggilan & Bergaransi',
+    'Service Kompor Freestanding',
+    'Service Kompor Tanam',
   ]
 
   const handleSubmit = (e: FormEvent) => {

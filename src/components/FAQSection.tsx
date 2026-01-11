@@ -9,31 +9,35 @@ import {
 export function FAQSection() {
   const faqs = [
     {
-      question: "Berapa lama proses pengendalian hama dilakukan?",
-      answer:
-        "Proses pengendalian hama biasanya memakan waktu 1-3 jam tergantung pada luas area dan tingkat infestasi. Untuk treatment khusus seperti fumigasi, bisa memakan waktu lebih lama. Tim kami akan memberikan estimasi waktu yang lebih akurat setelah melakukan inspeksi awal.",
-    },
-    {
-      question: "Apakah layanan ini aman untuk anak-anak dan hewan peliharaan?",
-      answer:
-        "Ya, kami menggunakan produk yang aman dan telah terdaftar secara resmi. Namun, untuk keamanan maksimal, kami menyarankan anak-anak dan hewan peliharaan untuk menjauh dari area treatment selama 2-4 jam setelah aplikasi. Tim kami akan memberikan instruksi keamanan yang lengkap sebelum dan setelah treatment.",
-    },
-    {
       question:
-        "Bagaimana jika hama muncul kembali setelah layanan pest control?",
+        "Apakah melayani area Provinsi Banten, Tangerang, dan Tangerang Selatan?",
       answer:
-        "Kami memberikan garansi layanan untuk setiap treatment yang dilakukan. Jika hama muncul kembali dalam periode garansi, kami akan melakukan re-treatment tanpa biaya tambahan. Durasi garansi bervariasi tergantung jenis layanan yang dipilih, biasanya 1-3 bulan untuk treatment standar.",
+        "Ya, kami melayani seluruh wilayah Provinsi Banten termasuk Kota Tangerang, Tangerang Selatan, Kabupaten Tangerang, Serang, Cilegon, dan sekitarnya. Tim teknisi kami siap datang ke lokasi Anda.",
     },
     {
-      question:
-        "Apakah Jaga Hama melayani perusahaan atau hanya rumah tinggal?",
+      question: "Apakah melayani area Jabodetabek?",
       answer:
-        "Kami melayani baik residensial (rumah tinggal) maupun komersial (kantor, gudang, pabrik, hotel, restoran, dll). Kami memiliki tim dan peralatan khusus untuk menangani berbagai skala proyek, dari rumah kecil hingga bangunan komersial besar.",
+        "Ya, kami melayani seluruh wilayah Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi). Layanan panggilan tersedia untuk semua area tersebut dengan respon cepat.",
     },
     {
-      question: "Bagaimana cara memesan layanan pest control?",
+      question: "Apakah melayani area Bandung dan Jawa Barat?",
       answer:
-        "Anda dapat memesan layanan kami dengan mengisi form reservasi di website ini, menghubungi kami melalui WhatsApp, atau telepon langsung. Tim customer service kami akan menghubungi Anda untuk konfirmasi jadwal dan melakukan konsultasi awal mengenai masalah hama yang Anda hadapi.",
+        "Ya, kami juga melayani wilayah Bandung dan sekitarnya serta seluruh Provinsi Jawa Barat. Silakan hubungi kami untuk informasi lebih lanjut mengenai jadwal kunjungan ke area Anda.",
+    },
+    {
+      question: "Berapa lama proses service kompor gas?",
+      answer:
+        "Proses service kompor gas biasanya memakan waktu 30 menit hingga 2 jam tergantung pada jenis kerusakan dan kondisi kompor. Tim teknisi kami akan memberikan estimasi waktu setelah melakukan pengecekan awal.",
+    },
+    {
+      question: "Bagaimana cara memesan layanan service kompor?",
+      answer:
+        "Anda dapat memesan layanan kami dengan mengisi form reservasi di website ini, menghubungi kami melalui WhatsApp, atau telepon langsung. Tim kami akan segera merespon dan menjadwalkan kunjungan teknisi ke lokasi Anda.",
+    },
+    {
+      question: "Apakah suku cadang yang digunakan original?",
+      answer:
+        "Ya, kami hanya menggunakan suku cadang asli dan berkualitas tinggi untuk memastikan hasil perbaikan tahan lama. Semua suku cadang juga bergaransi.",
     },
   ];
 
@@ -43,7 +47,7 @@ export function FAQSection() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url(/images/jghm5.jpg)",
+          backgroundImage: "url(/images/kmpr7.jpeg)",
         }}
       />
       <div className="absolute inset-0 bg-slate-800/70" />
@@ -61,9 +65,9 @@ export function FAQSection() {
             FAQS
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Pertanyaan Seputar Jasa Pengendalian Hama
+            Pertanyaan Seputar Jasa Service
             <br />
-            Rumah dan Kantor
+            Kompor Gas
           </h2>
         </motion.div>
 

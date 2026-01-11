@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from 'motion/react'
 import { useState } from 'react'
 import { X } from 'lucide-react'
 
-const images = Array.from({ length: 9 }, (_, i) => `/images/gallery/fnd${i + 1}.jpeg`)
+const images = Array.from({ length: 12 }, (_, i) => `/images/gallery/kmprgl${i + 1}.jpeg`)
 
 export function GallerySection() {
   const [selected, setSelected] = useState<string | null>(null)

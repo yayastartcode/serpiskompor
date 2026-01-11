@@ -7,8 +7,9 @@ export function Header() {
 
   const navLinks = [
     { name: "Beranda", href: "#" },
-    { name: "Tentang Kami", href: "#why-choose-us" },
+    { name: "Tentang Kami", href: "#about-us" },
     { name: "Layanan", href: "#services" },
+    { name: "Galeri", href: "#gallery" },
     { name: "FAQ", href: "#faq" },
     { name: "Kontak", href: "#contact" },
   ];
@@ -21,14 +22,14 @@ export function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50">
+    <header className="fixed top-0 left-0 right-0 bg-black z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <div className="flex items-center">
             <a href="/" className="block">
               <img
-                src="/images/fndlg.png"
+                src="/images/jybylg.png"
                 alt="FND Logo"
                 className="h-20 w-auto object-contain"
               />
@@ -41,7 +42,7 @@ export function Header() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-slate-600 hover:text-slate-900 transition-colors font-medium"
+                className="text-white hover:text-gray-300 transition-colors font-medium"
               >
                 {link.name}
               </a>
@@ -58,7 +59,7 @@ export function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 rounded-md text-slate-600 hover:text-slate-900 hover:bg-slate-100"
+            className="md:hidden p-2 rounded-md text-white hover:text-gray-300 hover:bg-white/10"
             aria-label="Toggle menu"
           >
             <svg
@@ -82,13 +83,13 @@ export function Header() {
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-slate-200 bg-white">
+        <div className="md:hidden border-t border-gray-800 bg-black">
           <nav className="px-4 py-4 space-y-3">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="block text-slate-600 hover:text-slate-900 font-medium py-2"
+                className="block text-white hover:text-gray-300 font-medium py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {link.name}
